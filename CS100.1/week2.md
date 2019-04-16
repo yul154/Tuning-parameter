@@ -53,7 +53,11 @@
 * Transformations: create new datasets from an existing one
   * lazy evaluation: creating a recipt for creating result
   * Transfotmations code runs at driver, action codes runs at workers
-  
+<img width="481" alt="Screen Shot 2019-04-16 at 5 17 48 PM" src="https://user-images.githubusercontent.com/27160394/56244730-a525dd00-606b-11e9-8236-ad0f7e1c87e9.png">
+
+* Actions
+> Cause Spark to execute recipe to transform source
+
 
 
 
