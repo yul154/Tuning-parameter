@@ -1,4 +1,4 @@
-# ** Spark essentials
+#  **Spark essentials**
 > a single machine can no longer process or even store all the data
 * distribute data over large clusters
 
@@ -58,6 +58,30 @@
 * Actions
 > Cause Spark to execute recipe to transform source
 <img width="494" alt="Screen Shot 2019-04-16 at 5 22 00 PM" src="https://user-images.githubusercontent.com/27160394/56245014-5462b400-606c-11e9-8799-9b9142c2f802.png">
+<img width="403" alt="Screen Shot 2019-04-16 at 5 30 07 PM" src="https://user-images.githubusercontent.com/27160394/56245407-5b3df680-606d-11e9-9c24-6fbbc60c9551.png">
+
+* Programming model
+  1. read data
+  2. summ within partitions
+  3. combine sums in driver
+* Caching RDD: avoid reload data
+  * `rdd.cache()`
+* pySpark Closures
+  * automatically for functions that run on RDDs at workers, and for any global variables that are used by those workers.
+  * one closure sent for per work with every task
+  * no communication between workers
+  * any changes that you make to the global variables that are at the workers are not sent to the driver or to other workers.
+* pySpark share variable
+> what if we want to count events that occur during job execution?
+  1. boradcast variables: cache a value in memory on all nodes，We can send it to the worker only once instead
+of having to send it with each task
+  2. accumulator(write only): only driver can read
+  >  variables that could only be added to by an associative operation.
+
+## Process of a Spark program
+1. use the master parameter to specify the number of workers.
+2. When you create an RDD, you can specify, the number of partitions for that RDD, and Spark will automatically create that RDD spread across the workers.
+3. When you perform transformations and actions that use functions, Spark will automatically push a closure containing. that function to the workers so that it can run at the workers.
 
 
 
