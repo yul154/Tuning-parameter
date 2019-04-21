@@ -5,4 +5,9 @@
 ## semi-structured
 * file:sequece of bytes
 * tabular:a table which a collection of rows an columns
+  1. format no well-defined
+  2. types may be incorrectly inferred
+* In pySpark
+  * DataFrames
+
 ## log file
