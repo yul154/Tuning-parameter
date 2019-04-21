@@ -21,4 +21,8 @@
   2. Pair RDDs: `x.join(y)` return RDD of all pairs of elements with matching keys
 <img width="509" alt="Screen Shot 2019-04-21 at 12 51 32 PM" src="https://user-images.githubusercontent.com/27160394/56473081-4928d300-6434-11e9-9685-5b5f20af369d.png">
 
+<img width="506" alt="Screen Shot 2019-04-21 at 12 54 45 PM" src="https://user-images.githubusercontent.com/27160394/56473134-c6544800-6434-11e9-89cd-66c20ce2cf1f.png">
+
+
+
 
