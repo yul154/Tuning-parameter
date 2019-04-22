@@ -15,6 +15,7 @@
 
 * Estimating the parameters(coefficients): minimize the MSE
  1. Least squares estimation
+<img width="639" alt="Screen Shot 2019-04-22 at 4 57 36 PM" src="https://user-images.githubusercontent.com/27160394/56530067-ce3ce680-651f-11e9-949a-eb4baa4b6b92.png">
  
 
 * Prons and cons
