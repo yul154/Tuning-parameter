@@ -32,3 +32,4 @@
 2. Density estimation: explore data to find some structure within it
 3. Market basket analysis
 4. Clustering
+<img width="1412" alt="Screen Shot 2019-04-22 at 2 56 05 PM" src="https://user-images.githubusercontent.com/27160394/56518990-d93b4b00-650e-11e9-881c-d9415ef3a518.png">
