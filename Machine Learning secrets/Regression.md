@@ -46,6 +46,12 @@
  
 ## Non-Linear Regression（polynomial）
 > the relationship between the independent variable X and the dependent variable Y is modeled as an Nth degree polynomial in X
-### representation： 
+### Representation： <img width="218" alt="Screen Shot 2019-04-22 at 5 58 07 PM" src="https://user-images.githubusercontent.com/27160394/56534749-46a7a580-6528-11e9-8c9c-abbabd6202f0.png">
+### with Linear regression
+* Polynomial can be expressed as linear: polynomial regression models can fit using the model of least squares
+### Questions
+1.how can i know if a problem is linear or non-linear:
+  * inspect visually
+  * based on accuracy
  
  
