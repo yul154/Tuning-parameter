@@ -54,6 +54,8 @@
 ## Logistic VS linear
 * Logistic regression is Sigmoid function of linear regerssion
 * Sigmoid function output is always between 0 and 1
+<img width="500" alt="Screen Shot 2019-04-23 at 4 45 36 PM" src="https://user-images.githubusercontent.com/27160394/56614556-49b59b00-65e7-11e9-9d3c-589cb8009678.png">
+
 ## Train process
 1. initialize coefficients
 2. Calculate preditct result
@@ -67,3 +69,27 @@
 # Tuning parameter
 1. should calculate the minimum point of this cost function
   1. gradient descent:using taking steps in the current direction of the slope, and the learning rate is like the length of the step you take.
+ 
+ # SVM
+ * a supervised algorithm that can classify cases by finding a separator.
+ ## Challenges
+ 1. how do we mapping data into a higher-dimensional space: kernal function
+ 2. how can we find the best separator: find biggest margin
+ 
+ ## Pros and Cons
+* Pros: 
+1. accurate in high-dimensional spaces
+2. memory efficient(subset of training points)
+* Cons
+1.Prone to over-fitting
+2.small datasets
+3. no probability estimation
+
+## Applications
+1. Image recognition
+2. Text category assignment
+3. Detecting spam
+4. Sentiment analysis
+5. Gene expression classification
+ 2. how can we find the best separator: fin 
+ 2. how can we find the best separator: fin 
