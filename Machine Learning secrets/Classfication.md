@@ -24,5 +24,8 @@
 
 ## Evaluation metrics in Classification
 1. Jaccard index
+<img width="305" alt="Screen Shot 2019-04-22 at 10 15 56 PM" src="https://user-images.githubusercontent.com/27160394/56547748-4a4d2380-654c-11e9-9643-2cdb2f4cfc03.png">
+2. F1 score
+
 
 
