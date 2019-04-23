@@ -36,9 +36,34 @@
 3. go to step 1
 * the method uses recursive partitioning to split data into segments by minimizing the impurity at each step. 
 ## find `best` attribute
-* best attribute:more predictiveness, less impurity, lower entropy
+* best attribute:more predictiveness, less impurity, lower entropy after splitting
 * splitting is a process of decrease in impurity of nodes
-## ho
-w
+* constructing a decision tree is all about finding attributes that return the highest information gain.
+## how to measure pure
+* entropy: measure of randomness or uncertainty of certain *node* (low entropy, purer node)
+* information gain: entropy of a tree(result entropy) before the split minus the weighted entropy after the split by an attribute
+>can increases the level of certainty after splitting
 
-
+# Logistic Regression
+* Logistic Regression measures the probability of a case belonging to a specific class.
+* Taking the linear regression and transforming the numeric estimate into a probability with the following function, which is called sigmoid function 𝜎
+## Good candidate
+1. binary classification
+2. need probabilistic results
+3. understand the impact of a feature
+## Logistic VS linear
+* Logistic regression is Sigmoid function of linear regerssion
+* Sigmoid function output is always between 0 and 1
+## Train process
+1. initialize coefficients
+2. Calculate preditct result
+3. Compare the predict result and actual one and record it as error
+4. calculate the error for all customers(cost function)
+5. update(coefficients) to minimize costs
+6. go back to step 2
+* how change coefficients in order to minimize costs: gradient descent
+* when should we stop the iterations:meet the requirement
+* Cost function: The difference between the actual values of y and our model output y hat
+# Tuning parameter
+1. should calculate the minimum point of this cost function
+  1. gradient descent:using taking steps in the current direction of the slope, and the learning rate is like the length of the step you take.
